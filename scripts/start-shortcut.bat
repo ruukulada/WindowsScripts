@@ -1,3 +1,3 @@
-:: syntax to start and .lnk shortcut
+:: syntax to start any .lnk shortcut
 
 start "" "*.lnk"
