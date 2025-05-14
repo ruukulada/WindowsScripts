@@ -1,3 +1,5 @@
+:: requires choco yt-dlp
+
 :: download audio from youtube
 :: square thumbnail album art
 :: music metadata if youtube music
