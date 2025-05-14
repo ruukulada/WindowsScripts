@@ -7,4 +7,4 @@
 cd "%UserProfile%\Downloads"
 echo Paste YouTube URL:
 set /p url=
-yt-dlp %url% --recode-video mp4
+yt-dlp %url%
