@@ -1,3 +1,5 @@
+:: requires choco yt-dlp
+
 :: download video from youtube
 :: mp4 recode
 
