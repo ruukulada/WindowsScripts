@@ -1,0 +1,12 @@
+.shell pwsh
+
+alt + q                 : komorebic close
+
+# Resize
+alt + shift + oem_plus  : komorebic resize-axis horizontal increase
+alt + shift + oem_minus : komorebic resize-axis horizontal decrease
+alt + oem_plus          : komorebic resize-axis vertical increase
+alt + oem_minus         : komorebic resize-axis vertical decrease
+
+# Window manager options
+alt + r                 : komorebic retile

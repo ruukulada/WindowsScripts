@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.37/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 1,
+  "default_container_padding": 0,
+  "border": false,
+  "border_width": 0,
+  "border_offset": 0,
+  "display_index_preferences": {
+    "0": "GSM5CA7-7&1e3da27a&2&UID256",
+    "1": "LEN62A9-7&1e3da27a&2&UID260",
+    "2": "SAM1048-7&1e3da27a&2&UID264"
+  },
+  "monitors": [
+    {
+      "workspaces":[{"id":0,"name":"1","layout":"VerticalStack"}],
+      "window_based_work_area_offset": {
+        "top": 0, "bottom": 0,
+        "left": 150, "right": 300
+      },
+      "window_based_work_area_offset_limit": 1,
+    },
+    {
+      "workspaces":[{"id":1,"name":"2","layout":"Rows"}],
+      "window_based_work_area_offset": {
+        "top": 700, "bottom": 700,
+        "left": 0, "right": 0
+      },
+      "window_based_work_area_offset_limit": 1,
+    },
+    {
+      "workspaces":[{"id":2,"name":"3","layout":"Rows"}],
+      "window_based_work_area_offset": {
+        "top": 525, "bottom": 525,
+        "left": 0, "right": 0
+      },
+      "window_based_work_area_offset_limit": 1,
+    }
+  ],
+  "object_name_change_applications": [
+    {
+      "kind": "Exe",
+      "id": "librewolf.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+}
