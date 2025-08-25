@@ -20,7 +20,7 @@
         "top": 0, "bottom": 0,
         "left": 150, "right": 300
       },
-      "window_based_work_area_offset_limit": 1,
+      "window_based_work_area_offset_limit": 1
     },
     {
       "workspaces":[{"id":1,"name":"2","layout":"Rows"}],
@@ -28,7 +28,7 @@
         "top": 700, "bottom": 700,
         "left": 0, "right": 0
       },
-      "window_based_work_area_offset_limit": 1,
+      "window_based_work_area_offset_limit": 1
     },
     {
       "workspaces":[{"id":2,"name":"3","layout":"Rows"}],
@@ -36,7 +36,7 @@
         "top": 525, "bottom": 525,
         "left": 0, "right": 0
       },
-      "window_based_work_area_offset_limit": 1,
+      "window_based_work_area_offset_limit": 1
     }
   ],
   "object_name_change_applications": [
@@ -45,5 +45,5 @@
       "id": "librewolf.exe",
       "matching_strategy": "Equals"
     }
-  ],
+  ]
 }
