@@ -46,5 +46,17 @@
       "id": "librewolf.exe",
       "matching_strategy": "Equals"
     }
+  ],
+  "floating_applications": [
+    {
+      "kind": "Exe",
+      "id": "ShaderGlass.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "flux.exe",
+      "matching_strategy": "Equals"
+    }
   ]
 }
