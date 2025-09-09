@@ -16,7 +16,7 @@
   },
   "monitors": [
     {
-      "workspaces":[{"id":0,"name":"1","layout":"VerticalStack"}],
+      "workspaces":[{"id":0,"name":"1","layout":"Grid"}],
       "window_based_work_area_offset": {
         "top": 0, "bottom": 0,
         "left": 150, "right": 300
@@ -51,11 +51,6 @@
     {
       "kind": "Exe",
       "id": "ShaderGlass.exe",
-      "matching_strategy": "Equals"
-    },
-    {
-      "kind": "Exe",
-      "id": "flux.exe",
       "matching_strategy": "Equals"
     }
   ]
