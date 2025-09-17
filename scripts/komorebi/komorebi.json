@@ -41,17 +41,29 @@
       "window_based_work_area_offset_limit": 1
     }
   ],
-  "object_name_change_applications": [
+  "manage_rules": [
     {
       "kind": "Exe",
-      "id": "librewolf.exe",
+      "id": "flux.exe",
       "matching_strategy": "Equals"
     }
   ],
   "floating_applications": [
     {
+        "kind": "Exe",
+        "id": "flux.exe",
+        "matching_strategy": "Equals"
+    },
+    {
       "kind": "Exe",
       "id": "ShaderGlass.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "object_name_change_applications": [
+    {
+      "kind": "Exe",
+      "id": "librewolf.exe",
       "matching_strategy": "Equals"
     }
   ]
