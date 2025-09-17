@@ -50,9 +50,9 @@
   ],
   "floating_applications": [
     {
-        "kind": "Exe",
-        "id": "flux.exe",
-        "matching_strategy": "Equals"
+      "kind": "Exe",
+      "id": "flux.exe",
+      "matching_strategy": "Equals"
     },
     {
       "kind": "Exe",
