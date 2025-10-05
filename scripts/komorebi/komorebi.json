@@ -7,64 +7,59 @@
   "mouse_follows_focus": false,
   "default_workspace_padding": 1,
   "default_container_padding": 0,
-  "border": false,
-  "border_width": 0,
-  "border_offset": 0,
+  "border": false, "border_width": 0, "border_offset": 0,
   "display_index_preferences": {
     "0": "GSM5CA7-7&1e3da27a&2&UID256",
     "1": "LEN62A9-7&1e3da27a&2&UID260",
     "2": "SAM1048-7&1e3da27a&2&UID264"
   },
-  "monitors": [
-    {
-      "workspaces":[{"id":0,"name":"1","layout":"VerticalStack"}],
-      "window_based_work_area_offset": {
-        "top": 0, "bottom": 0,
-        "left": 150, "right": 300
-      },
-      "window_based_work_area_offset_limit": 1
+  "monitors": [{
+    "workspaces": [{
+      "id": 0, "name": "1", "layout": "VerticalStack"
+    }],
+    "window_based_work_area_offset": {
+      "top": 0, "bottom": 0,
+      "left": 150, "right": 300
     },
-    {
-      "workspaces":[{"id":1,"name":"2","layout":"Rows"}],
-      "window_based_work_area_offset": {
-        "top": 700, "bottom": 700,
-        "left": 0, "right": 0
-      },
-      "window_based_work_area_offset_limit": 1
+    "window_based_work_area_offset_limit": 1
+  },{
+    "workspaces": [{
+      "id": 1, "name": "2", "layout": "Rows",
+      "initial_workspace_rules": [{
+        "kind": "Exe", "id": "librewolf.exe",
+        "matching_strategy": "Equals"
+    }]}],
+    "window_based_work_area_offset": {
+      "top": 700, "bottom": 700,
+      "left": 0, "right": 0
     },
-    {
-      "workspaces":[{"id":2,"name":"3","layout":"Rows"}],
-      "window_based_work_area_offset": {
-        "top": 525, "bottom": 525,
-        "left": 0, "right": 0
-      },
-      "window_based_work_area_offset_limit": 1
-    }
-  ],
-  "manage_rules": [
-    {
-      "kind": "Exe",
-      "id": "flux.exe",
-      "matching_strategy": "Equals"
-    }
-  ],
-  "floating_applications": [
-    {
-      "kind": "Exe",
-      "id": "flux.exe",
-      "matching_strategy": "Equals"
+    "window_based_work_area_offset_limit": 1
+  },{
+    "workspaces": [{
+      "id": 2, "name": "3", "layout": "Rows",
+      "initial_workspace_rules": [{
+        "kind": "Exe", "id": "Discord.exe",
+        "matching_strategy": "Equals"
+    }]}],
+    "window_based_work_area_offset": {
+      "top": 525, "bottom": 525,
+      "left": 0, "right": 0
     },
-    {
-      "kind": "Exe",
-      "id": "ShaderGlass.exe",
-      "matching_strategy": "Equals"
-    }
-  ],
-  "object_name_change_applications": [
-    {
-      "kind": "Exe",
-      "id": "librewolf.exe",
-      "matching_strategy": "Equals"
-    }
-  ]
+    "window_based_work_area_offset_limit": 1
+  }],
+  "manage_rules": [{
+    "kind": "Exe", "id": "flux.exe",
+    "matching_strategy": "Equals"
+  }],
+  "floating_applications": [{
+    "kind": "Exe", "id": "flux.exe",
+    "matching_strategy": "Equals"
+    },{
+    "kind": "Exe", "id": "ShaderGlass.exe",
+    "matching_strategy": "Equals"
+  }],
+  "object_name_change_applications": [{
+    "kind": "Exe", "id": "librewolf.exe",
+    "matching_strategy": "Equals"
+  }]
 }
