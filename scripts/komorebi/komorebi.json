@@ -9,9 +9,9 @@
   "default_container_padding": 0,
   "border": false, "border_width": 0, "border_offset": 0,
   "display_index_preferences": {
-    "0": "GSM5CA7-7&1e3da27a&2&UID256",
-    "1": "LEN62A9-7&1e3da27a&2&UID260",
-    "2": "SAM1048-7&1e3da27a&2&UID264"
+    "0": "GSM5CA7-7&1e3da27a&3&UID256",
+    "1": "LEN62A9-7&1e3da27a&3&UID260",
+    "2": "SAM1048-7&1e3da27a&3&UID264"
   },
   "monitors": [{
     "workspaces": [{
