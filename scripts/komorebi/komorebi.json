@@ -44,6 +44,9 @@
   "manage_rules": [{
     "kind": "Exe", "id": "flux.exe",
     "matching_strategy": "Equals"
+    },{
+    "kind": "Title", "id": "Friends List",
+    "matching_strategy": "StartsWith"
   }],
   "floating_applications": [{
     "kind": "Exe", "id": "flux.exe",
