@@ -24,11 +24,8 @@
     "window_based_work_area_offset_limit": 1
   },{
     "workspaces": [{
-      "id": 1, "name": "2", "layout": "Rows",
-      "initial_workspace_rules": [{
-        "kind": "Exe", "id": "librewolf.exe",
-        "matching_strategy": "Equals"
-    }]}],
+      "id": 1, "name": "2", "layout": "Rows"
+    }],
     "window_based_work_area_offset": {
       "top": 700, "bottom": 700,
       "left": 0, "right": 0
@@ -36,11 +33,8 @@
     "window_based_work_area_offset_limit": 1
   },{
     "workspaces": [{
-      "id": 2, "name": "3", "layout": "Rows",
-      "initial_workspace_rules": [{
-        "kind": "Exe", "id": "Discord.exe",
-        "matching_strategy": "Equals"
-    }]}],
+      "id": 2, "name": "3", "layout": "Rows"
+    }],
     "window_based_work_area_offset": {
       "top": 525, "bottom": 525,
       "left": 0, "right": 0
