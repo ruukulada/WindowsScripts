@@ -51,6 +51,10 @@
     "kind": "Title", "id": "Friends List",
     "matching_strategy": "StartsWith"
   }],
+  "ignore_rules": [{
+    "kind": "Exe", "id": "bf6.exe",
+    "matching_strategy": "Equals"
+  }],
   "floating_applications": [{
     "kind": "Exe", "id": "flux.exe",
     "matching_strategy": "Equals"
