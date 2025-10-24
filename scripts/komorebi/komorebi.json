@@ -44,8 +44,7 @@
   "manage_rules": [{
     "kind": "Exe", "id": "flux.exe",
     "matching_strategy": "Equals"
-    },
-    {
+    },{
     "kind": "Title", "id": "Steam - Browser",
     "matching_strategy": "Equals"
     },{
