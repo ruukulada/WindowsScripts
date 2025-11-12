@@ -42,6 +42,9 @@
     "window_based_work_area_offset_limit": 1
   }],
   "manage_rules": [{
+    "kind": "Exe", "id": "EpicGamesLauncher.exe",
+    "matching_strategy": "Equals"
+    },{
     "kind": "Exe", "id": "flux.exe",
     "matching_strategy": "Equals"
     },{
