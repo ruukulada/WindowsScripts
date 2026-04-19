@@ -7,19 +7,20 @@
 
 @echo off
 set /a output=%RANDOM%
-cd "%UserProfile%\Downloads"
-mkdir "%output%"
-cd "%output%"
 echo Paste YouTube URL:
 set /p url=
 yt-dlp -v ^
   %url% ^
   -x ^
-  -f bestaudio^
-  --audio-format opus^
-  --parse-metadata "%%(playlist_index)s:%%(track_number)s"^
-  --parse-metadata "%%(artists.0)s:%%(meta_artist)s"^
-  --embed-metadata^
-  --embed-thumbnail^
-  --convert-thumbnail jpg^
+  -f bestaudio ^
+  -P %UserProfile%\Music\%output% ^
+  --audio-format opus ^
+  --no-embed-chapters ^
+  --ignore-errors ^
+  --no-mtime ^
+  --parse-metadata "%%(playlist_index)s:%%(track_number)s" ^
+  --parse-metadata "%%(artists.0)s:%%(meta_artist)s" ^
+  --embed-metadata ^
+  --embed-thumbnail ^
+  --convert-thumbnail jpg ^
   --ppa "ThumbnailsConvertor+FFmpeg_o:-c:v mjpeg -vf crop=\"'"'"'if(gt(ih,iw),iw,ih)'"'"':'"'"'if(gt(iw,ih),ih,iw)'"'"'\""
