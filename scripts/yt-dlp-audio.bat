@@ -3,7 +3,7 @@
 :: download audio from youtube
 :: square thumbnail album art
 :: music metadata if youtube music
-:: m4a best audio
+:: opus best audio
 
 @echo off
 set /a output=%RANDOM%
