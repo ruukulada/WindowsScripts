@@ -9,14 +9,13 @@
 set /a output=%RANDOM%
 echo Paste YouTube URL:
 set /p url=
-yt-dlp -v ^
+yt-dlp -v --ignore-errors ^
   %url% ^
   -x ^
   -f bestaudio ^
   -P %UserProfile%\Music\%output% ^
   --audio-format opus ^
   --no-embed-chapters ^
-  --ignore-errors ^
   --no-mtime ^
   --parse-metadata "%%(playlist_index)s:%%(track_number)s" ^
   --parse-metadata "%%(artists.0)s:%%(meta_artist)s" ^
