@@ -16,7 +16,7 @@ yt-dlp -v ^
   %url% ^
   -x ^
   -f bestaudio^
-  --audio-format m4a^
+  --audio-format opus^
   --parse-metadata "%%(playlist_index)s:%%(track_number)s"^
   --parse-metadata "%%(artists.0)s:%%(meta_artist)s"^
   --embed-metadata^
