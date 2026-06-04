@@ -19,7 +19,7 @@
     }],
     "window_based_work_area_offset": {
       "top": 0, "bottom": 0,
-      "left": 150, "right": 300
+      "left": 0, "right": 0
     },
     "window_based_work_area_offset_limit": 1
   },{
@@ -28,7 +28,7 @@
     }],
     "window_based_work_area_offset": {
       "top": 0, "bottom": 0,
-      "left": 150, "right": 300
+      "left": 0, "right": 0
     },
     "window_based_work_area_offset_limit": 1
   }],
