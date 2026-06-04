@@ -9,13 +9,13 @@
   "default_container_padding": 0,
   "border": false, "border_width": 0, "border_offset": 0,
   "display_index_preferences": {
-    "0": "GSM5CA7-7&1e3da27a&3&UID256",
-    "1": "LEN62A9-7&1e3da27a&3&UID260",
-    "2": "SAM1048-7&1e3da27a&3&UID264"
+    "0": "GSM5CA7",
+    "1": "LEN62A9",
+    "2": "SAM1048"
   },
   "monitors": [{
     "workspaces": [{
-      "id": 0, "name": "1", "layout": "VerticalStack"
+      "id": 0, "name": "1", "layout": "Grid"
     }],
     "window_based_work_area_offset": {
       "top": 0, "bottom": 0,
@@ -24,7 +24,7 @@
     "window_based_work_area_offset_limit": 1
   },{
     "workspaces": [{
-      "id": 1, "name": "2", "layout": "RightMainVerticalStack"
+      "id": 1, "name": "2", "layout": "Columns"
     }],
     "window_based_work_area_offset": {
       "top": 0, "bottom": 0,
