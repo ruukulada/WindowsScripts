@@ -40,6 +40,15 @@
     },{
     "kind": "Title", "id": "Friends List",
     "matching_strategy": "StartsWith"
+    },{
+    "kind": "Title", "id": "Game Servers",
+    "matching_strategy": "Equals"
+    },{
+    "kind": "Title", "id": "Recordings & Screenshots",
+    "matching_strategy": "Equals"
+    },{
+    "kind": "Title", "id": "Steam Settings",
+    "matching_strategy": "Equals"
   }],
   "ignore_rules": [{
     "kind": "Exe", "id": "bf6.exe",
