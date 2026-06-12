@@ -47,8 +47,8 @@
     "kind": "Title", "id": "Recordings & Screenshots",
     "matching_strategy": "Equals"
     },{
-    "kind": "Title", "id": "Steam Settings",
-    "matching_strategy": "Equals"
+    "kind": "Title", "id": "Steam ",
+    "matching_strategy": "StartsWith"
   }],
   "ignore_rules": [{
     "kind": "Exe", "id": "bf6.exe",
