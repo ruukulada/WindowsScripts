@@ -1,12 +1,6 @@
 :: open komorebi if it is closed, close it if is open, run as admin (sudo)
 
-@echo off
-setlocal
-net session >nul 2>&1
-if %ERRORLEVEL% NEQ 0 (
-  sudo "%~f0" %*
-  exit /b
-)
+call uac.bat
 
 set EXE_NAME=komorebi.exe
 tasklist /FI "IMAGENAME eq %EXE_NAME%" 2>NUL | find /I "%EXE_NAME%" >NUL
