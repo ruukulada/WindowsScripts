@@ -54,8 +54,8 @@
     "kind": "Exe", "id": "bf6.exe",
     "matching_strategy": "Equals"
     },{
-    "kind": "Exe", "id": "mpv.exe ",
-    "matching_strategy": "Equals"
+    "kind": "Title", "id": "mpv",
+    "matching_strategy": "EndsWith"
   }],
   "floating_applications": [{
     "kind": "Exe", "id": "flux.exe",
