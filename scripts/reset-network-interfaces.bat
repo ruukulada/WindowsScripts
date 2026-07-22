@@ -1,6 +1,6 @@
 :: disable and re-enable network interfaces, run as admin (sudo)
 
-call uac.bat
+@if not defined e (set e=1 & call "%~dp0uac.bat" "%~f0" %* & exit /b)
 
 @echo off
 for /f "tokens=3,* delims= " %%A in ('netsh interface show interface ^| find /i "connected"') do (

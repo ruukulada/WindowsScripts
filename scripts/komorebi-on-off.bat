@@ -1,6 +1,6 @@
 :: open komorebi if it is closed, close it if is open, run as admin (sudo)
 
-call uac.bat
+@if not defined e (set e=1 & call "%~dp0uac.bat" "%~f0" %* & exit /b)
 
 set EXE_NAME=komorebi.exe
 tasklist /FI "IMAGENAME eq %EXE_NAME%" 2>NUL | find /I "%EXE_NAME%" >NUL

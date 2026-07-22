@@ -1,6 +1,6 @@
 :: kill EA, UPlay, Battle.net
 
-call uac.bat
+@if not defined e (set e=1 & call "%~dp0uac.bat" "%~f0" %* & exit /b)
 
 taskkill/im EpicGamesLauncher.exe
 taskkill/im EADesktop.exe
