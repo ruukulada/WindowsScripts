@@ -49,6 +49,9 @@
     },{
     "kind": "Title", "id": "Steam ",
     "matching_strategy": "StartsWith"
+    },{
+    "kind": "Exe", "id": "UniGetUI.exe",
+    "matching_strategy": "Equals"
   }],
   "ignore_rules": [{
     "kind": "Exe", "id": "bf6.exe",
