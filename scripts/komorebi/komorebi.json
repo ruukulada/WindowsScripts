@@ -64,6 +64,9 @@
     "kind": "Exe", "id": "flux.exe",
     "matching_strategy": "Equals"
     },{
+    "kind": "Exe", "id": "rslux.exe",
+    "matching_strategy": "Equals"
+    },{
     "kind": "Exe", "id": "ShaderGlass.exe",
     "matching_strategy": "Equals"
   }],
