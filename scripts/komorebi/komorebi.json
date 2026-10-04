@@ -62,6 +62,9 @@
     },{
     "kind": "Exe", "id": "rslux.exe",
     "matching_strategy": "Equals"
+    },{
+    "kind": "Exe", "id": "sbox.exe",
+    "matching_strategy": "Equals"
   }],
   "floating_applications": [{
     "kind": "Exe", "id": "flux.exe",
