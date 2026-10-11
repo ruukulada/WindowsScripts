@@ -41,14 +41,8 @@
     "kind": "Title", "id": "Friends List",
     "matching_strategy": "StartsWith"
     },{
-    "kind": "Title", "id": "Game Servers",
+    "kind": "Title", "id": "Steam",
     "matching_strategy": "Equals"
-    },{
-    "kind": "Title", "id": "Recordings & Screenshots",
-    "matching_strategy": "Equals"
-    },{
-    "kind": "Title", "id": "Steam ",
-    "matching_strategy": "StartsWith"
     },{
     "kind": "Exe", "id": "UniGetUI.exe",
     "matching_strategy": "Equals"
