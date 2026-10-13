@@ -54,6 +54,9 @@
     "kind": "Title", "id": "mpv",
     "matching_strategy": "EndsWith"
     },{
+    "kind": "Exe", "id": "RadeonTuner.exe",
+    "matching_strategy": "Equals"
+    },{
     "kind": "Exe", "id": "rslux.exe",
     "matching_strategy": "Equals"
     },{
