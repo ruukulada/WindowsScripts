@@ -48,6 +48,9 @@
     "matching_strategy": "Equals"
   }],
   "ignore_rules": [{
+    "kind": "Exe", "id": "ACR-Daily.exe",
+    "matching_strategy": "Equals"
+    },{
     "kind": "Exe", "id": "bf6.exe",
     "matching_strategy": "Equals"
     },{
