@@ -1,4 +1,4 @@
-.shell pwsh
+.shell cmd
 
 alt + q                 : komorebic close
 
